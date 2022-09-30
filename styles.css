@@ -1,0 +1,21 @@
+* {
+  background-color: lightgrey;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  justify-content: center;
+  background-color: lightskyblue;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+.navbar {
+  background-color: lightskyblue;
+  justify-content: center;
+}
