@@ -6,16 +6,35 @@ h1 {
     "Lucida Sans", Arial, sans-serif;
   font-size: 2em;
   font-weight: bold;
-  justify-content: center;
   background-color: lightskyblue;
+  border-radius: 14px;
+  padding: 5px;
+  color: #1c1c1c;
 }
 
+h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: lightskyblue;
+  border-radius: 14px;
+  padding: 3px;
+  color: #1c1c1c;
+}
+
+p {
+  font-family: sans-serif;
+}
 img {
   width: 300px;
   height: auto;
+  border-radius: 20px;
 }
 
 .navbar {
-  background-color: lightskyblue;
+  color: cadetblue;
   justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
