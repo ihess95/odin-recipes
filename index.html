@@ -6,15 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="navscript.js"></script>
   </head>
   <body>
-    <div class="navbar">
+    <!-- <div class="navbar">
       <ul>
         <li><a href="../index.html">Home</a></li>
         <li><a href="recipes/cpap.html">Chicken Paprikash</a></li>
         <li><a href="recipes/spaetzle.html">Spaetzle</a></li>
         <li><a href="recipes/butter.html">Butter</a></li>
       </ul>
+    </div> -->
+    <div id="main">
+      <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown">
+            <a
+              href="Recipes.html"
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              data-target="dropdown"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Recipes<span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu" id="dropdon-menu">
+              <li><a href="recipes/cpap.html">Chicken Paprikash</a></li>
+              <li><a href="recipes/spaetzle.html">Spaetzle</a></li>
+              <li><a href="recipes/butter.html">Butter</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </div>
     <h1>Odin Recipes</h1>
     <img src="images/chef.webp" alt="Odin Chefipes" />
