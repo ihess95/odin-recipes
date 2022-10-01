@@ -1,4 +1,4 @@
-* {
+body {
   background-color: lightgrey;
 }
 
@@ -7,8 +7,8 @@ h4,
 .text {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: lightskyblue;
-  border-radius: 14px;
+  background-color: #87ceeb;
+  /* border-radius: 14px; */
   color: #1c1c1c;
 }
 
@@ -20,6 +20,8 @@ h4 {
 h1 {
   font-size: 2em;
   padding: 5px;
+  margin: 0%;
+  border-radius: 0px 0px 10px 10px;
 }
 
 h4 {
@@ -38,14 +40,14 @@ img {
 }
 
 .navbar {
-  background-color: cadetblue;
-  justify-content: center;
+  background-color: #9087ff;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 1.5em;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .text {
