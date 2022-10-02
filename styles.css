@@ -5,6 +5,14 @@ body {
 
 h1,
 h4,
+img,
+.text,
+.navbar {
+  border: #1c1c1c solid 2px;
+}
+
+h1,
+h4,
 .text {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -25,6 +33,7 @@ h1 {
   margin-bottom: 25px;
   border-radius: 0px 0px 10px 10px;
   background-color: #ff9087;
+  border-top: none;
 }
 
 h4 {
@@ -33,6 +42,7 @@ h4 {
   padding: 3px;
   border-radius: 10px 10px 0px 0px;
   margin: 0%;
+  border-bottom: none;
 }
 
 p {
@@ -62,6 +72,7 @@ a {
   padding: 10px;
   border-radius: 10px 10px 0px 0px;
   box-shadow: 5px 5px;
+  border-bottom: none;
 }
 
 .text {
@@ -72,6 +83,7 @@ a {
   margin-bottom: 15px;
   background-color: #ff9087;
   padding: 5px;
+  border-top: none;
 }
 
 .centerImage {
@@ -114,4 +126,8 @@ a {
 
 a:hover {
   color: #9087ff;
+}
+
+button:hover {
+  box-shadow: 3px 3px;
 }
