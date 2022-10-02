@@ -1,6 +1,6 @@
 body {
   background: #9087ff;
-  background: linear-gradient(100deg, #9087ff, #bfbaff, #eeedff);
+  background: linear-gradient(100deg, #9087ff, #bfbaff, #ffaaaa);
 }
 
 h1,
@@ -87,4 +87,31 @@ a {
   z-index: 1;
   font-size: 1em;
   padding: 15px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 1px 1px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffb1ab;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a:hover {
+  color: #9087ff;
 }
