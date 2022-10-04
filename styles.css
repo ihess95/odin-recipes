@@ -49,7 +49,7 @@ p {
 }
 
 img {
-  width: 350git px;
+  width: 350px;
   height: auto;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -195,4 +195,10 @@ button:hover {
 
 ol {
   padding: 5px 5px 5px 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container-img {
+    width: 50%;
+  }
 }
